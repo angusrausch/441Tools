@@ -84,7 +84,7 @@ if [[ -n "$password" ]]; then
         echo "Copying Key to ${hosts[$i]}"
 
         # Capture the output and exit status of ssh-copy-id
-        output=$(sshpass -p "$password" ssh-copy-id -i "$keypath" -o StrictHostKeyChecking=no -p "${ports[$i]}" "${users[$i]}@${hostnames[$i]}" 2>&1)
+        output=$(echo sshpass -p "$password" ssh-copy-id -i "$keypath" -o StrictHostKeyChecking=no -p "${ports[$i]}" "${users[$i]}@${hostnames[$i]}" 2>&1)
         exit_status=$?
 
         if [[ $exit_status -ne 0 && $output == *"Permission denied"* ]]; then
