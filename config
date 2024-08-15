@@ -1,0 +1,78 @@
+
+# Routers
+Host extrouter
+    HostName 172.0.99.2
+    User student
+    
+
+Host introuter1
+    HostName 172.0.99.3
+    User student
+    
+
+Host introuter2
+    HostName 172.0.99.4
+    User student
+    
+
+Host introuter3
+    HostName 172.0.99.5
+    User student
+    
+
+Host introuter4
+    HostName 172.0.99.6
+    User student
+    
+
+# DNS
+Host dns
+    HostName 172.0.99.7
+    User student
+    
+
+# VPN
+Host vpn
+    HostName 172.0.99.8
+    User student
+    
+
+# Git
+Host git
+    HostName 172.0.99.9
+	User student
+    
+
+# Web
+Host www
+    HostName 172.0.99.10
+    User student
+    
+
+# DB
+Host db
+    HostName 172.0.99.11
+    User student
+    
+
+# Wiki
+Host wiki
+    HostName 172.0.99.12
+    User student
+    
+
+# Staff
+Host dev1
+    HostName 172.0.99.13
+    User student
+    
+
+Host bastion
+    HostName 172.0.99.14
+    User student
+    
+
+Host staff1
+    HostName 172.0.99.15
+    User student
+    
