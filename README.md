@@ -7,7 +7,7 @@ Tools for cab441 to make everyones life easier
 
 Clone this repositry to your host VM with
 
-```git clone git@github.com:angusrausch/441Tools.git```
+```git clone https://github.com/angusrausch/441Tools.git```
 
 ### Copy config file
 Copy the config file to .ssh directory to create aliases to make ssh easier to use 
